@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Raven Website</title>
+    <link href ="https://unpkg.com/boxicons@2.1/css/boxicons.min.css" rel="stylesheet"/>
+    
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo"> Raven <span> Pesimo</span></a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#recommendations">Videos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+
+    <div class="home-content">
+        <h1>Hello, It's <span> Raven</span></h1>
+        <h3>I'm an<span> IT Student</span></h3>
+        <p>Hello, how are you? I hope you're doing well as I am doing well too. My name is Raven Marie M. Pesimo but you can call me by my nickname, Venven, or you can also, call me by my ideal name, Avery, I am 18 years old now, and currently taking up Bachelor of Science in Information and Technology at Quezon City University.</p>
+        
+        <div class="social-icons">
+            <a href="https://github.com/RavenPesimo"><i class='bx bxl-github'></i></a>
+            <a href="https://web.facebook.com/ravenmarquezp"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/raaveeeennn/"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://x.com/ventanoia"><i class='bx bxl-twitter'></i></a>
+        </div>
+    
+    
+        <div class="btn-group">
+            <a href="#" class="btn">Get In Touch</a>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
+
+    </div>
+
+    <div class="home-img">
+        <img src="main.jpg" alt="">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="main.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>Way back, when I was just a normal kid who doesn't know what she wants in life,
+             I was just existing. All I'd have been doing was to STUDY. PLAY. SLEEP. EAT. And same cycle for tommorow. 
+             But, as I was growing up I realize that it can't always have to be like that, I need to collect myself and think about my future. 
+             Moreover, as I am learning who I want to be and what I want to be, I discover myself evenmore. 
+             I have learned that I don't want to be that kid anymore and I want to do more than just to eat and sleep.</p><br>
+        <p>Now, in the present, I am eager to improve and eager to learn new things, I always see myself risking just to experince new things that I have never been experience before.
+            I often find myself overthinking about the future and what else I can achieve in life. 
+            But I also see myself as lazy, and sometimes I don’t even leave the house because I’m too lazy to interact with different people.
+             Well, that’s one of my weaknesses, the people and the crowds.</p><br>
+             <p>As an IT student, I'm struggling in my major's subject. Especially, that I was not an ICT student before,
+                 so I have no prior knowlegde about the course. I am looking forward to gain a new experience and knowlegde from this program.</p>
+
+
+       
+    </div>
+</section>
+    
+<section class="gallery" id="gallery">
+    <h2 style="font-size: 50px;">Gallery</h2>
+    <div class="gallery-container">
+        <div class="box" onclick="toggleImages('home')">Home</div>
+        <div class="box" onclick="toggleImages('family')">Family</div>
+        <div class="box" onclick="toggleImages('friends')">Friends</div>
+        <div class="box" onclick="toggleImages('hobbies')">Hobbies</div>
+    </div>
+
+    <div id="home" class="images">
+        <img src="home1.jpg" alt="Home">
+        <img src="home2.jpg" alt="Home1">
+        <img src="home3.jpg" alt="Home2">
+        <img src="home4.jpg" alt="Home3">
+        <img src="home5.jpg" alt="Home4">
+    </div>
+
+    <div id="family" class="images">
+        <img src="fam1.jpeg" alt="Family">
+        <img src="fam2.jpeg" alt="Family1">
+        <img src="fam3.jpg" alt="Family2">
+        <img src="fam4.jpg" alt="Family3">
+        <img src="fam5.jpg" alt="Family4">
+        <img src="fam6.jpg" alt="Family5">
+        <img src="fam7.jpg" alt="Family6">
+        <img src="fam8.jpg" alt="Family7">
+       
+    
+
+    </div>
+   
+
+    <div id="friends" class="images">
+        <img src="friends1.jpg" alt="Friends">
+        <img src="friends2.jpg" alt="Friends1">
+        <img src="friends3.jpg" alt="Friends2">
+        <img src="friends4.jpg" alt="Friends3">
+        <img src="friends5.jpg" alt="Friends4">
+        <img src="friends6.jfif" alt="Friends5">
+    </div>
+
+    <div id="hobbies" class="images">
+        <img src="hobbies1.jpeg" alt="Hobbies">
+        <img src="hobbies2.jpg" alt="hobbies1">
+        <img src="hobbies3.jpg" alt="hobbies2">
+  </div>
+</section>
+
+<section class="recommendatiom" id="recommendation">
+    <h2 style="font-size: 50px;">Videos</h2>
+    <div class="video-player">
+        <h2>My Friends and I</h2>
+        <iframe width="420" height="345" src="TIKTOK.mp4"></iframe>
+        <iframe width="420" height="345" src="Video1.mp4"></iframe>
+        <iframe width="420" height="345" src="TIKTOK1.mp4"></iframe>
+        
+    </div>
+   </section>
+
+   <section class="contact" id="contact">
+    <h2 style="font-size: 50px;">Contact</h2>
+
+    <form action="">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text"
+                placeholder="Full Name">
+                <input type="email"
+                placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number"
+                placeholder="Phone Number">
+                <input type="text"
+                placeholder="Subject">
+            </div>
+        </div>
+
+        <div class="input-group-2">
+            <textarea name="" id="" cols="30"
+            rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="social">
+            <a href="https://github.com/RavenPesimo"><i class='bx bxl-github'></i></a>
+            <a href="https://web.facebook.com/ravenmarquezp"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/raaveeeennn/"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://x.com/ventanoia"><i class='bx bxl-twitter'></i></a>
+    </div>
+
+    <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+
+        <li>
+            <a href="#">About Me</a>
+        </li>
+
+        <li>
+            <a href="#">Gallery</a>
+        </li>
+
+        <li>
+            <a href="#">Media</a>
+        </li>
+
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+
+    
+    <p class="copyright">
+        © Raven Pesimo | All Rights Reserved   
+    </p>
+</footer>
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
